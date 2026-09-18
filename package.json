@@ -52,7 +52,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/odgo",
+  "homepage": "https://steve19890707.github.io/magikarp",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
