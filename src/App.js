@@ -24,7 +24,8 @@ const App = () => {
   const [list, setList] = useState(Map());
   const { i18n } = useTranslation();
   const lang = getInitLang();
-  const { gameId, token, roundid } = getGameId();
+  const { gameId: queryGameId, token, roundid } = getGameId();
+  const gameId = queryGameId || "AT01";
   useEffect(() => {
     apiGetImgsDomain()
       .then((res) => {
@@ -34,7 +35,7 @@ const App = () => {
       .catch((error) => console.error(error));
   }, [dispatch]);
   useEffect(() => {
-    if (gameId && token) {
+    if (gameId) {
       apiGetDetail(token, gameId, roundid).then((res) => {
         const roundCode = fromJS(res.data.result).get("RoundCode") || "";
         if (roundCode && gameId === "AT01") {
