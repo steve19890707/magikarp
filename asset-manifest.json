@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/magikarp/static/css/main.4721b213.chunk.css",
+    "main.js": "/magikarp/static/js/main.7bcdcb9c.chunk.js",
+    "runtime-main.js": "/magikarp/static/js/runtime-main.adc04de7.js",
+    "static/js/2.3f491fe3.chunk.js": "/magikarp/static/js/2.3f491fe3.chunk.js",
+    "index.html": "/magikarp/index.html",
+    "static/js/2.3f491fe3.chunk.js.LICENSE.txt": "/magikarp/static/js/2.3f491fe3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adc04de7.js",
+    "static/js/2.3f491fe3.chunk.js",
+    "static/css/main.4721b213.chunk.css",
+    "static/js/main.7bcdcb9c.chunk.js"
+  ]
+}
